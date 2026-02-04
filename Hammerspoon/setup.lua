@@ -64,4 +64,13 @@ package.preload['hs.window.layout']         = preload 'hs.window_layout'
 package.preload['hs.window.switcher']       = preload 'hs.window_switcher'
 package.preload['hs.window.tiling']         = preload 'hs.window_tiling'
 
+-- Claude AI automation submodules
+package.preload['hs.claude.api']            = preload 'hs.claude_api'
+package.preload['hs.claude.vision']         = preload 'hs.claude_vision'
+package.preload['hs.claude.actions']        = preload 'hs.claude_actions'
+package.preload['hs.claude.parser']         = preload 'hs.claude_parser'
+package.preload['hs.claude.agent']          = preload 'hs.claude_agent'
+package.preload['hs.claude.prompts']        = preload 'hs.claude_prompts'
+package.preload['hs.claude.coordinates']    = preload 'hs.claude_coordinates'
+
 return require'hs._coresetup'.setup(...)
